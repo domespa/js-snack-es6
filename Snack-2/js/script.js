@@ -44,7 +44,7 @@ const teams = [
 ];
 
 for (let i = 0; i < teams.length; i++){
-    teams[i].points = getRndInteger(0, 102);
+    teams[i].points = getRndInteger(0, 102); // record punti serie A "JUVENTUS" ⚪⚫❤️
     teams[i].foulsSuffered = getRndInteger(0, 33);
 }
 
