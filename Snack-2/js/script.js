@@ -48,13 +48,14 @@ for (let i = 0; i < teams.length; i++){
     teams[i].foulsSuffered = getRndInteger(0, 33);
 }
 
+const teamFouls = [];
+
 for (let i = 0; i < teams.length; i++) { 
-        const teamFouls = [];
         teamFouls.push(teams[i].team), 
         teamFouls.push(teams[i].foulsSuffered) ,
         // teamFouls.push(teams[i].points) ,
-        console.log(teamFouls)
     };
 
+    console.log(teamFouls)
 
 // console.log(teams)
